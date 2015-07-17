@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.7" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="org.udistrital.ifc2citygmlv2.main.Main" project="IFC2CityGMLV2" 
+    file="/IFC2CityGMLV2/src/org/udistrital/ifc2citygmlv2/main/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="130" y="-92" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="false" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="org.udistrital.ifc2citygmlv2.sbm.Edificio" project="IFC2CityGMLV2" 
+    file="/IFC2CityGMLV2/src/org/udistrital/ifc2citygmlv2/sbm/Edificio.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="130" y="178" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="false" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="org.udistrital.ifc2citygmlv2.sbm.Muro" project="IFC2CityGMLV2" 
+    file="/IFC2CityGMLV2/src/org/udistrital/ifc2citygmlv2/sbm/Muro.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="745" y="102" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="false" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="org.udistrital.ifc2citygmlv2.sbm.Piso" project="IFC2CityGMLV2" 
+    file="/IFC2CityGMLV2/src/org/udistrital/ifc2citygmlv2/sbm/Piso.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="400" y="179" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="false" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="org.udistrital.ifc2citygmlv2.sbm.Plancha" project="IFC2CityGMLV2" 
+    file="/IFC2CityGMLV2/src/org/udistrital/ifc2citygmlv2/sbm/Plancha.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="804" y="317" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="false" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="openifctools.com.openifcjavatoolbox.ifcmodel.IfcModel" project="IFC2CityGMLV2" 
+    file="C:/Users/Fredy/Desktop/EscritorioWin8/Codigo/librerias/OpenIFCTools/openifctools.com.openifcjavatoolbox_1.0.1_20111129.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position x="788" y="-91" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="org.udistrital.ifc2citygmlv2.util.BuildingCreator" project="IFC2CityGMLV2" 
+    file="/IFC2CityGMLV2/src/org/udistrital/ifc2citygmlv2/util/BuildingCreator.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position x="422" y="475" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <association id="8">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="9" name="planchas">        
+        <position x="578" y="218" width="52" height="18"/>      
+      </attribute>      
+      <multiplicity id="10" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="11">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="12" name="edificio"/>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="14">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="15" name="pisos"/>      
+      <multiplicity id="16" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="17">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="18" name="muros"/>      
+      <multiplicity id="19" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="20">    
+    <bendpoint x="23" y="-90"/>    
+    <bendpoint x="22" y="475"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="21" name="creador"/>      
+      <multiplicity id="22" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="23">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="24" name="ifcModel"/>      
+      <multiplicity id="25" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="false" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

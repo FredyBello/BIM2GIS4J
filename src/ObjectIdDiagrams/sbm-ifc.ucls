@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.7" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="org.udistrital.ifc2citygmlv2.sbm.ifc.Placement" project="IFC2CityGMLV2" 
+    file="/IFC2CityGMLV2/src/org/udistrital/ifc2citygmlv2/sbm/ifc/Placement.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="613" y="59" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="org.udistrital.ifc2citygmlv2.sbm.ifc.Representation" project="IFC2CityGMLV2" 
+    file="/IFC2CityGMLV2/src/org/udistrital/ifc2citygmlv2/sbm/ifc/Representation.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position x="630" y="224" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="org.udistrital.ifc2citygmlv2.sbm.ifc.PlanoDeCorte" project="IFC2CityGMLV2" 
+    file="/IFC2CityGMLV2/src/org/udistrital/ifc2citygmlv2/sbm/ifc/PlanoDeCorte.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position x="42" y="315" width="227" height="477"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="org.udistrital.ifc2citygmlv2.sbm.ifc.Solido" project="IFC2CityGMLV2" 
+    file="/IFC2CityGMLV2/src/org/udistrital/ifc2citygmlv2/sbm/ifc/Solido.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="158" y="147" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="org.udistrital.ifc2citygmlv2.sbm.ifc.Axis2Placement3D" project="IFC2CityGMLV2" 
+    file="/IFC2CityGMLV2/src/org/udistrital/ifc2citygmlv2/sbm/ifc/Axis2Placement3D.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position x="1007" y="133" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="openifctools.com.openifcjavatoolbox.ifc2x3tc1.IfcPlane" project="IFC2CityGMLV2" 
+    file="C:/Users/Fredy/Desktop/EscritorioWin8/Codigo/librerias/OpenIFCTools/openifctools.com.openifcjavatoolbox_1.0.1_20111129.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position x="615" y="425" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="org.apache.commons.math3.geometry.euclidean.threed.Plane" project="IFC2CityGMLV2" 
+    file="C:/Users/Fredy/Desktop/EscritorioWin8/Codigo/librerias/commons-math/commons-math3-3.3.jar" binary="true" 
+    corner="BOTTOM_RIGHT">    
+    <position x="614" y="700" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="org.udistrital.ifc2citygmlv2.sbm.Piso" project="IFC2CityGMLV2" 
+    file="/IFC2CityGMLV2/src/org/udistrital/ifc2citygmlv2/sbm/Piso.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="965" y="438" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="9">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="10" name="planosDeCorte"/>      
+      <multiplicity id="11" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="12">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="13" name="representation">        
+        <position x="357" y="201" width="80" height="18"/>      
+      </attribute>      
+      <multiplicity id="14" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="15">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="16" name="objectPlacement">        
+        <position x="354" y="74" width="88" height="18"/>      
+      </attribute>      
+      <multiplicity id="17" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="18">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="19" name="planoIfc">        
+        <position x="400" y="451" width="48" height="18"/>      
+      </attribute>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="21">    
+    <bendpoint x="337" y="312"/>    
+    <bendpoint x="747" y="312"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="22" name="pisoPadre">        
+        <position x="789" y="318" width="56" height="18"/>      
+      </attribute>      
+      <multiplicity id="23" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="24">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="25" name="relativePlacement">        
+        <position x="824" y="77" width="94" height="18"/>      
+      </attribute>      
+      <multiplicity id="26" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="27">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="28" name="planoApache">        
+        <position x="380" y="663" width="74" height="18"/>      
+      </attribute>      
+      <multiplicity id="29" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="30">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="31" name="position">        
+        <position x="840" y="177" width="47" height="18"/>      
+      </attribute>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
